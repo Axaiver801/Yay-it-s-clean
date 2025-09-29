@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Yay it's clean!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional sofa and rug cleaning service. Pickup & drop-off, deep cleaning, and more!">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="translate.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Yay it's clean!</div>
+    <nav>
+      <a href="#services" data-en="Services" data-es="Servicios">Services</a>
+      <a href="#pricing" data-en="Pricing" data-es="Precios">Pricing</a>
+      <a href="#team" data-en="Team" data-es="Equipo">Team</a>
+      <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+      <button id="lang-toggle">ES</button>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h1 data-en="Clean sofas and rugs. Hassle-free." data-es="Sofás y alfombras limpios. Sin complicaciones.">Clean sofas and rugs. Hassle-free.</h1>
+      <p data-en="We clean fabric sofas and rugs, pickup & drop-off included. Serving families, pet owners & homeowners." data-es="Limpiamos sofás de tela y alfombras, con recogida y entrega incluidas. Para familias, dueños de mascotas y propietarios.">
+        We clean fabric sofas and rugs, pickup & drop-off included. Serving families, pet owners & homeowners.
+      </p>
+      <a href="#contact" class="cta" data-en="Book a cleaning" data-es="Reserva una limpieza">Book a cleaning</a>
+    </section>
+    <section id="services">
+      <h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+      <ul>
+        <li data-en="Fabric sofa cleaning" data-es="Limpieza de sofás de tela">Fabric sofa cleaning</li>
+        <li data-en="Rug pickup, drop-off, and deep cleaning" data-es="Recogida, entrega y limpieza profunda de alfombras">Rug pickup, drop-off, and deep cleaning</li>
+      </ul>
+      <p data-en="We approach you in public, pitch our service, and hand you a flyer with our contact info and website!" data-es="¡Te abordamos en público, presentamos nuestro servicio y te entregamos un folleto con nuestra información de contacto y sitio web!">
+        We approach you in public, pitch our service, and hand you a flyer with our contact info and website!
+      </p>
+    </section>
+    <section id="pricing">
+      <h2 data-en="Pricing" data-es="Precios">Pricing</h2>
+      <div class="pricing-table">
+        <div>
+          <h3 data-en="Rug Cleaning" data-es="Limpieza de alfombras">Rug Cleaning</h3>
+          <ul>
+            <li data-en="Small rug (car mat, bath rug, hallway rug): $10 each" data-es="Alfombra pequeña (tapete de auto, baño, pasillo): $10 c/u">Small rug (car mat, bath rug, hallway rug): $10 each</li>
+            <li data-en="Medium rug (5x7, 6x9): $50 each" data-es="Alfombra mediana (5x7, 6x9): $50 c/u">Medium rug (5x7, 6x9): $50 each</li>
+            <li data-en="Large rug (8x10, 9x12): $80-100 each" data-es="Alfombra grande (8x10, 9x12): $80-100 c/u">Large rug (8x10, 9x12): $80-100 each</li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-en="Sofa Cleaning" data-es="Limpieza de sofás">Sofa Cleaning</h3>
+          <ul>
+            <li data-en="Small sofa (recliner): $60 each" data-es="Sofá pequeño (reclinable): $60 c/u">Small sofa (recliner): $60 each</li>
+            <li data-en="Medium sofa: $100-150" data-es="Sofá mediano: $100-150">Medium sofa: $100-150</li>
+            <li data-en="Large sofa (sectional): $200-250" data-es="Sofá grande (seccional): $200-250">Large sofa (sectional): $200-250</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="team">
+      <h2 data-en="Join Our Team" data-es="Únete a nuestro equipo">Join Our Team</h2>
+      <p data-en="We're hiring for multiple roles:" data-es="Estamos contratando para varios puestos:">We're hiring for multiple roles:</p>
+      <ul>
+        <li data-en="Labor (cleaning)" data-es="Labor (limpieza)">Labor (cleaning)</li>
+        <li data-en="Marketing" data-es="Marketing">Marketing</li>
+        <li data-en="Customer support" data-es="Atención al cliente">Customer support</li>
+        <li data-en="Appointment setting" data-es="Agendamiento de citas">Appointment setting</li>
+        <li data-en="Payroll and bookkeeping" data-es="Nómina y contabilidad">Payroll and bookkeeping</li>
+      </ul>
+      <p data-en="Interested? Contact us below!" data-es="¿Interesado? ¡Contáctanos abajo!">Interested? Contact us below!</p>
+    </section>
+    <section id="contact">
+      <h2 data-en="Contact & Booking" data-es="Contacto y reservas">Contact & Booking</h2>
+      <p data-en="Call us: (801)205-8746" data-es="Llámanos: (801)205-8746">Call us: (801)205-8746</p>
+      <form action="https://formspree.io/f/xanperdp" method="POST" id="booking-form">
+        <label data-en="Your Name:" data-es="Tu nombre:">Your Name:</label>
+        <input type="text" name="name" required>
+        <label data-en="Your Email:" data-es="Tu correo electrónico:">Your Email:</label>
+        <input type="email" name="email" required>
+        <label data-en="Phone:" data-es="Teléfono:">Phone:</label>
+        <input type="tel" name="phone">
+        <label data-en="Service Needed:" data-es="Servicio requerido:">Service Needed:</label>
+        <select name="service" required>
+          <option value="" selected disabled data-en="Select" data-es="Selecciona">Select</option>
+          <option data-en="Sofa Cleaning" data-es="Limpieza de sofás">Sofa Cleaning</option>
+          <option data-en="Rug Cleaning" data-es="Limpieza de alfombras">Rug Cleaning</option>
+        </select>
+        <label data-en="Message / Booking Details:" data-es="Mensaje / Detalles de la reserva:">Message / Booking Details:</label>
+        <textarea name="message" required></textarea>
+        <button type="submit" class="cta" data-en="Send Request" data-es="Enviar solicitud">Send Request</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Yay it's clean! | <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+  </footer>
+</body>
+</html>
