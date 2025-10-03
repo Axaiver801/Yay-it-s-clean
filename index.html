@@ -1,16 +1,93 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Yay It's Clean</title>
+  <meta charset="UTF-8">
+  <title>Yay it's clean!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional sofa and rug cleaning service. Pickup & drop-off, deep cleaning, and more!">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="translate.js"></script>
 </head>
 <body>
-    <h1>Welcome to Yay It's Clean</h1>
-    <p>Your satisfaction is our priority!</p>
-
-    <h2>Contact & Booking</h2>
-    <p>Please contact us at contact@yayitsclean.com</p>
-    <p>Booking is available through our website.</p>
-
-    <h2>Other Sections</h2>
-    <p>Here are some of our other services...</p>
+  <header>
+    <div class="logo">Yay it's clean!</div>
+    <nav>
+      <a href="#mission" data-en="Mission" data-es="Misión">Mission</a>
+      <a href="#services" data-en="Services" data-es="Servicios">Services</a>
+      <a href="#pricing" data-en="Pricing" data-es="Precios">Pricing</a>
+      <a href="#booking" data-en="Booking" data-es="Reserva">Booking</a>
+      <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
+      <button id="lang-toggle">ES</button>
+    </nav>
+    <div class="tagline" data-en="Because Clean Feels Better." data-es="Porque limpio se siente mejor.">Because Clean Feels Better.</div>
+  </header>
+  <main>
+    <section id="mission">
+      <h2 data-en="Our Mission" data-es="Nuestra Misión">Our Mission</h2>
+      <p data-en="At Yay it’s Clean, our mission is to bring families and pet owners peace of mind through safe, pet-friendly cleaning that removes odors, stains, and everyday messes. More than a cleaning service, we deliver an experience — saving you time, money, and hassle with convenient pickup and drop-off options. As a veteran-owned business, we’re committed to serving our Utah community with the same dedication, discipline, and care that defined our service — helping every home feel fresh, welcoming, and truly clean." data-es="En Yay it’s Clean, nuestra misión es brindar tranquilidad a familias y dueños de mascotas a través de una limpieza segura y apta para mascotas, eliminando olores, manchas y suciedad diaria. Más que un servicio de limpieza, ofrecemos una experiencia: ahorrándote tiempo, dinero y molestias con opciones convenientes de recogida y entrega. Como empresa propiedad de veteranos, estamos comprometidos a servir a nuestra comunidad de Utah con la misma dedicación, disciplina y cuidado que definió nuestro servicio, ayudando a que cada hogar se sienta fresco, acogedor y verdaderamente limpio.">
+        At Yay it’s Clean, our mission is to bring families and pet owners peace of mind through safe, pet-friendly cleaning that removes odors, stains, and everyday messes. More than a cleaning service, we deliver an experience — saving you time, money, and hassle with convenient pickup and drop-off options. As a veteran-owned business, we’re committed to serving our Utah community with the same dedication, discipline, and care that defined our service — helping every home feel fresh, welcoming, and truly clean.
+      </p>
+    </section>
+    <section id="services">
+      <h2 data-en="Our Services" data-es="Nuestros Servicios">Our Services</h2>
+      <ul>
+        <li data-en="Fabric sofa cleaning" data-es="Limpieza de sofás de tela">Fabric sofa cleaning</li>
+        <li data-en="Rug pickup, drop-off, and deep cleaning" data-es="Recogida, entrega y limpieza profunda de alfombras">Rug pickup, drop-off, and deep cleaning</li>
+      </ul>
+    </section>
+    <section id="pricing">
+      <h2 data-en="Pricing" data-es="Precios">Pricing</h2>
+      <div class="pricing-table">
+        <div>
+          <h3 data-en="Rug Cleaning" data-es="Limpieza de alfombras">Rug Cleaning</h3>
+          <ul>
+            <li data-en="Small rug (car mat, bath rug, hallway rug): $10 each" data-es="Alfombra pequeña (tapete de auto, baño, pasillo): $10 c/u">Small rug (car mat, bath rug, hallway rug): $10 each</li>
+            <li data-en="Medium rug (5x7, 6x9): $50 each" data-es="Alfombra mediana (5x7, 6x9): $50 c/u">Medium rug (5x7, 6x9): $50 each</li>
+            <li data-en="Large rug (8x10, 9x12): $60 each" data-es="Alfombra grande (8x10, 9x12): $60 c/u">Large rug (8x10, 9x12): $60 each</li>
+          </ul>
+        </div>
+        <div>
+          <h3 data-en="Sofa Cleaning" data-es="Limpieza de sofás">Sofa Cleaning</h3>
+          <ul>
+            <li data-en="Small sofa (recliner): $60 each" data-es="Sofá pequeño (reclinable): $60 c/u">Small sofa (recliner): $60 each</li>
+            <li data-en="Medium sofa: $100" data-es="Sofá mediano: $100">Medium sofa: $100</li>
+            <li data-en="Large sofa (sectional): $160" data-es="Sofá grande (seccional): $160">Large sofa (sectional): $160</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="booking">
+      <h2 data-en="Quick Booking" data-es="Reserva Rápida">Quick Booking</h2>
+      <p data-en="Schedule your cleaning in just a few clicks. Select a time, enter your details, and you're set!" data-es="Programa tu limpieza en solo unos clics. ¡Elige una hora, ingresa tus datos y listo!">
+        Schedule your cleaning in just a few clicks. Select a time, enter your details, and you're set!
+      </p>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/cyroalpha/yay-it-s-clean" style="min-width:320px;height:700px;"></div>
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    </section>
+    <section id="contact">
+      <h2 data-en="Contact & Booking" data-es="Contacto y reservas">Contact & Booking</h2>
+      <p data-en="Call us: (801)205-8746" data-es="Llámanos: (801)205-8746">Call us: (801)205-8746</p>
+      <form action="https://formspree.io/f/xanperdp" method="POST" id="booking-form">
+        <label data-en="Your Name:" data-es="Tu nombre:">Your Name:</label>
+        <input type="text" name="name" required>
+        <label data-en="Your Email:" data-es="Tu correo electrónico:">Your Email:</label>
+        <input type="email" name="email" required>
+        <label data-en="Phone:" data-es="Teléfono:">Phone:</label>
+        <input type="tel" name="phone">
+        <label data-en="Service Needed:" data-es="Servicio requerido:">Service Needed:</label>
+        <select name="service" required>
+          <option value="" selected disabled data-en="Select" data-es="Selecciona">Select</option>
+          <option data-en="Sofa Cleaning" data-es="Limpieza de sofás">Sofa Cleaning</option>
+          <option data-en="Rug Cleaning" data-es="Limpieza de alfombras">Rug Cleaning</option>
+        </select>
+        <label data-en="Message / Booking Details:" data-es="Mensaje / Detalles de la reserva:">Message / Booking Details:</label>
+        <textarea name="message" required></textarea>
+        <button type="submit" class="cta" data-en="Send Request" data-es="Enviar solicitud">Send Request</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Yay it's clean! | <span data-en="All rights reserved." data-es="Todos los derechos reservados.">All rights reserved.</span></p>
+  </footer>
 </body>
 </html>
